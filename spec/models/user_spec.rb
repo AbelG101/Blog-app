@@ -10,6 +10,10 @@ describe User, type: :model do
     expect(subject).to_not be_valid
   end
 
+  it 'should be valid for a given name' do
+    expect(subject).to be_valid
+  end
+
   it 'should be invalid for a negative posts counter' do
     subject.posts_counter = -1
     expect(subject).to_not be_valid
