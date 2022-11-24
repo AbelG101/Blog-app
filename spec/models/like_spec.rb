@@ -8,7 +8,7 @@ describe Like, type: :model do
   end
 
   it 'should increment the number of likes' do
-    @like.udpate_likes_count
+    @like.update_likes_count
     expect(@post.likes_counter).to eq 1
   end
 end
