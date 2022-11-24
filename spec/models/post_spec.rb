@@ -15,7 +15,6 @@ describe Post, type: :model do
     expect(@post).to be_valid
   end
 
-
   it 'should be invlaid for a negative comments counter' do
     @post.comments_counter = -1
     expect(@post).to_not be_valid
@@ -26,11 +25,10 @@ describe Post, type: :model do
     expect(@post).to_not be_valid
   end
 
-  it "should be invalid for title longer than 250 characters" do
+  it 'should be invalid for title longer than 250 characters' do
     @post.title = 'This is an intentionally long title for testing purposes...maybe we should add something more just for the heck of it, here we go bla bla bla bla bla bla bla. I think this looks enough, ow no we still have a few more Music, Art, Code just random things'
-    expect(@post).to_not be_valid 
+    expect(@post).to_not be_valid
   end
-  
 
   describe '#update_posts_count' do
     it 'should increment amount of posts by 1' do
