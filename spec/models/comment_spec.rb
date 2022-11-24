@@ -9,6 +9,6 @@ describe Comment, type: :model do
 
   it 'should increment the amount of comments' do
     @comment.update_comments_count
-    expect(@post.comments_counter).to eq 1
+    expect(@post.comments_counter).to eq 2
   end
 end
