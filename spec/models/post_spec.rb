@@ -26,7 +26,9 @@ describe Post, type: :model do
   end
 
   it 'should be invalid for title longer than 250 characters' do
-    @post.title = 'This is an intentionally long title for testing purposes...maybe we should add something more just for the heck of it, here we go bla bla bla bla bla bla bla. I think this looks enough, ow no we still have a few more Music, Art, Code just random things'
+    @post.title = 'This is an intentionally long title for testing purposes...maybe we should add something
+    more just for the heck of it, here we go bla bla bla bla bla bla bla.
+    I think this looks enough, ow no we still have a few more Music, Art, Code just random things'
     expect(@post).to_not be_valid
   end
 
