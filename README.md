@@ -156,6 +156,14 @@ Example:
 - GitHub: [@AbelG101](https://github.com/AbelG101)
 - LinkedIn: [Abel Gebeyehu](https://www.linkedin.com/in/abel-gebeyehu-779743183/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Provide live demo]**
+- [ ] **[Multi blogging option]**
+- [ ] **[Viewers analytics based on location]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
