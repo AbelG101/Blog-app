@@ -101,6 +101,17 @@
   padding: 10px 10px 0 10px;
   bottom: 0;
   width: 100%;
+  background: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 70%);
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  position: fixed;
+  padding: 10px 10px 0 10px;
+  bottom: 0;
+  width: 100%;
   background: #262626;
   color: #b3b3b3;
 }
