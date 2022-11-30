@@ -4,6 +4,14 @@
     <p> <%= post.title %> </p>
   </div>
   <div class="comments-likes">
-    Comments: <span class="comments-value"> <%= post.comments_counter %></span>, Likes: <span class="likes-value"> <%= post.likes_counter %> </span>
+    <div class="like-btn">
+      <%= form_with model: @like, url: user_post_likes_path(post_id: post.id, user_id: user.id) do |form| %>
+        <%= form.submit "Like" %>
+      <% end %>
+    </div>
+    <div class="content">
+      Comments: <span class="comments-value"> <%= post.comments_counter %></span>, Likes: <span class="likes-value"> <%= post.likes_counter %> </span>
+    </div>
   </div>
+
 </div>
