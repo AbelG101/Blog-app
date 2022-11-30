@@ -5,6 +5,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .root-container {
   width: 60%;
   margin: 0 auto;
@@ -95,9 +101,8 @@
 }
 
 .footer {
-  margin: 0 auto;
   text-align: center;
-  position: fixed;
+  margin-top: auto;
   padding: 10px 10px 0 10px;
   bottom: 0;
   width: 100%;
