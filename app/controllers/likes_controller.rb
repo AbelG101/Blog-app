@@ -12,5 +12,4 @@ class LikesController < ApplicationController
       redirect_to @post
     end
   end
-  
 end
