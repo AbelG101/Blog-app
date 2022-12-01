@@ -75,7 +75,9 @@ body {
 }
 
 .comments-likes {
-  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .post-comments {
