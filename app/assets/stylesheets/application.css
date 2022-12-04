@@ -104,6 +104,12 @@ a {
 
 .comments {
   padding: 5px;
+  margin-bottom: 15px;
+}
+
+.post-detail-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .post-header {
@@ -127,6 +133,38 @@ a {
   width: 100%;
   background: hsl(0, 0%, 15%);
   color: hsl(0, 0%, 70%);
+}
+
+.add-comment,
+.add-post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  width: 60%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.add-comment textarea,
+.add-post textarea {
+  border: 1px solid #ccc;
+  outline: none;
+  margin: 10px 0;
+  min-height: 150px;
+  padding: 8px 12px;
+}
+
+.add-comment input {
+  width: min-content;
+  align-self: center;
+  padding: 8px 12px;
+}
+
+.add-post input[type=text] {
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 4px 8px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 800px) {
