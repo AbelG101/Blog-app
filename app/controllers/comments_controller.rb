@@ -10,7 +10,7 @@ class CommentsController < ApplicationController
     @post = Post.find(params[:post_id])
 
     if @comment.save
-      redirect_to user_post_path(id: @post.id, user_id: @post.author_id)
+      redirect_to user_posts_path(@post.author_id)
     else
       render :new, alert: 'ERROR! something went wrong while creating the comment'
     end
