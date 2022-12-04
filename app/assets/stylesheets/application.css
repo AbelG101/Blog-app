@@ -11,6 +11,10 @@ body {
   flex-direction: column;
 }
 
+a {
+  text-decoration: none;
+}
+
 .root-container {
   width: 60%;
   margin: 0 auto;
@@ -20,14 +24,24 @@ body {
 .user {
   display: flex;
   margin: 30px 0;
+  color: #000;
+}
+
+.user-posts,
+.comments,
+.post {
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
 }
 
 .user-posts {
-  border: 1px solid #000;
   width: 70%;
   display: flex;
   flex-direction: column;
   padding: 5px;
+}
+
+.user-posts:hover {
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0, rgba(27, 31, 35, 0.15) 0 0 0 1px;
 }
 
 .posts-amount {
@@ -66,7 +80,11 @@ body {
 .post {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
+  color: #000;
+}
+
+.post:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .btn {
@@ -85,7 +103,6 @@ body {
 }
 
 .comments {
-  border: 1px solid #000;
   padding: 5px;
 }
 
