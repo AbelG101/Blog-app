@@ -8,7 +8,6 @@
       <div class="like-comment-btn">
         <%= form_with model: @like, url: user_post_likes_path(post_id: post.id, user_id: user.id) do |form| %>
           <%= form.submit "Like", class: "btn" %>
-          <button class="btn"><%= link_to 'Add comment', new_user_post_comment_path(user, post) %></button>
         <% end %>
       </div>
       <div class="content">
