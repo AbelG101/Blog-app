@@ -153,6 +153,11 @@ Example:
 
 👤 **Abel Gebeyehu**
 
+- GitHub: [@DuaneDave](https://github.com/DuaneDave)
+- LinkedIn: [David Obiebi](https://www.linkedin.com/in/david-obiebi/)
+
+👤 **Duane David**
+
 - GitHub: [@AbelG101](https://github.com/AbelG101)
 - LinkedIn: [Abel Gebeyehu](https://www.linkedin.com/in/abel-gebeyehu-779743183/)
 
