@@ -239,9 +239,11 @@ a {
   margin-bottom: 10px;
 }
 
-.signup-container {
+.login-signup-container {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .signup-input {
