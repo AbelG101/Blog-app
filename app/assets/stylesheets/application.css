@@ -239,6 +239,25 @@ a {
   margin-bottom: 10px;
 }
 
+.login-signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.signup-input {
+  border: 1px solid #ccc;
+  outline: none;
+  width: 60%;
+  padding: 4px 8px;
+  margin-bottom: 10px;
+}
+
+.signup-input:focus {
+  background-color: hsl(0, 0%, 90%);
+}
+
 @media (max-width: 800px) {
   .root-container {
     width: 100%;
