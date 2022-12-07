@@ -16,7 +16,7 @@
     <div class="comments-likes">
       <div class="like-comment-btn">
         <%= form_with model: @like, url: user_post_likes_path(post_id: post.id, user_id: user.id) do |form| %>
-          <%= form.submit "Like", class: "btn" %>
+          <%= form.submit "Like", class: "btn like-btn" %>
         <% end %>
       </div>
       <div class="content">
