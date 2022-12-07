@@ -150,6 +150,12 @@ a {
   padding: 5px;
 }
 
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
 .post-detail-container {
   display: flex;
   flex-direction: column;
@@ -271,6 +277,22 @@ a {
 .alert {
   background-color: #f3d8da;
   color: #692326;
+}
+
+.remove-btn {
+  width: 30px;
+  height: 30px;
+  padding: 4px 8px;
+  background-color: #f3d8da;
+  color: #692326;
+  border: 0.5px solid #f3d8da;
+  border-radius: 50%;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  border: 0.5px solid #692326;
 }
 
 @media (max-width: 800px) {
