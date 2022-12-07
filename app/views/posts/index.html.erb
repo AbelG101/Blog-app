@@ -13,7 +13,7 @@
               <%= render 'shared/post_info', post: post, post_no: post_no, user: @user %>
             <div class="comments">
               <% post.recent_comments.each do |comment| %>
-                <%= render 'shared/comment', comment: comment %>
+                <%= render 'shared/comment', comment: comment, user: @user, post: post %>
               <% end %>
               <button class="btn add-comment-btn"><%= link_to 'Add comment', new_user_post_comment_path(@user, post) %></button>
             </div>

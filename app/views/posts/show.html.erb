@@ -15,7 +15,7 @@
       </div>
       <div class="comments">
         <% @post.recent_comments.each do |comment| %>
-          <%= render 'shared/comment', comment: comment %>
+          <%= render 'shared/comment', comment: comment, post: @post, user: @user %>
         <% end %>
       </div>
     </div>
