@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  load_and_authorize_resource
   def index
     @user = User.find(params[:user_id])
     @posts = Post.where(author_id: params[:user_id])
@@ -20,6 +21,7 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.includes(:author).find(params[:id])
+    @user = current_user
   end
 
   private
