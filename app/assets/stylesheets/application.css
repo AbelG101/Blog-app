@@ -145,6 +145,16 @@ a {
   color: #000;
 }
 
+.like-btn {
+  border: 1px solid #52ad6a;
+  color: #21452a;
+  background-color: #dcefe1;
+}
+
+.like-btn:hover {
+  background-color: #cbe7d2;
+}
+
 .comments-likes {
   display: flex;
   justify-content: space-between;
@@ -190,9 +200,9 @@ a {
 }
 
 .add-comment-btn {
-  background-color: #36a9ae;
-  background-image: linear-gradient(#37adb2, #329ca0);
-  border: 1px solid #2a8387;
+  background-color: #0a95ff;
+  background-image: linear-gradient(#29a2ff, #0079d6);
+  border: 1px solid #0079d6;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
   margin: 0;
