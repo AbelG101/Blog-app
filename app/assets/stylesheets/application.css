@@ -59,7 +59,7 @@ a {
 }
 
 .bio-container {
-  border: 2px solid #000;
+  border: 1px solid hsl(0, 0%, 90%);
   margin-bottom: 10px;
 }
 
@@ -106,7 +106,7 @@ a {
   padding: 8px 15px;
   align-self: center;
   position: relative;
-  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.2, 1);
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
@@ -256,6 +256,21 @@ a {
 
 .signup-input:focus {
   background-color: hsl(0, 0%, 90%);
+}
+
+.alert,
+.notice {
+  border-radius: 5px;
+}
+
+.notice {
+  background-color: #dff0d5;
+  color: #4a8041;
+}
+
+.alert {
+  background-color: #f3d8da;
+  color: #692326;
 }
 
 @media (max-width: 800px) {
