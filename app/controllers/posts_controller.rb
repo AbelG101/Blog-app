@@ -28,7 +28,7 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     @post.author.decrement!(:posts_counter)
     @post.destroy
-    flash[:success] = "Post was successfully deleted"
+    flash[:success] = 'Post was successfully deleted'
     redirect_to user_path(@post.author)
   end
 
