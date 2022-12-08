@@ -3,6 +3,7 @@ class Api::V1::CommentsController < ApplicationController
     comments = Comment.where(author_id: params[:user_id])
     render json: comments, status: :ok
   end
+
   def create
     @post = Post.find(params[:post_id])
     @comment = @post.comments.new(text: comment_params[:text], user_id: current_user.id, post_id: @post.id)
