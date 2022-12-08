@@ -15,6 +15,17 @@ Rails.application.routes.draw do
       resources :likes
     end
   end
+  
+  namespace :api do
+    namespace :v1 do
+      resources :users do
+        resources :posts, format: :json do 
+          resources :comments, format: :json 
+        end
+      end
+    end
+  end
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
