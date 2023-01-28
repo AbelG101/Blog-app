@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails <a name="about-project"></a>
+# 📖 Blog App <a name="about-project"></a>
 
 **Blog App** 
 > This is a web app that allows the user to post, edit, save, and view their blog posts with time-stamped entries. 
