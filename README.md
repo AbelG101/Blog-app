@@ -36,7 +36,7 @@
 # 📖 Blog App <a name="about-project"></a>
 
 **Blog App** 
-> This is a web app that allows the user to post, edit, save, and view their blog posts with time-stamped entries. 
+> This is a web app that allows users to post, edit & save their blog posts with time-stamped entries as well as view other bloggers' posts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- comming soon ⌛
+- coming soon ⌛
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,12 +76,12 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 - Ruby
 - Ruby on Rails
-- PostgreSql
+- PostgreSQL
 
-> Visit this [link](https://www.ruby-lang.org/en/documentation/installation/) on how to install Ruby for different OS's.
+> Visit this [link](https://www.ruby-lang.org/en/documentation/installation/) on how to install Ruby for different OS.
 
 > Visit this [link](https://www.postgresql.org/download/) on how to install PostgreSQL.
 
